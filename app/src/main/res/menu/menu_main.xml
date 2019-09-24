@@ -8,7 +8,7 @@
         android:icon="@drawable/ic_grid"
         android:orderInCategory="100"
         android:title="@string/change_view"
-        app:showAsAction="always|ifRoom" />
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/hot_section_settings"
