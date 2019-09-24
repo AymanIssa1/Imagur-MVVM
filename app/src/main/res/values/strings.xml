@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ImagurTask</string>
+    <string name="about_settings">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="hot">Hot</string>
+    <string name="top">Top</string>
+    <string name="user">User</string>
+    <string name="change_view">Change View</string>
+    <string name="show_viral">Show Viral</string>
+
+    <array name="sections">
+        <item>Hot</item>
+        <item>Top</item>
+        <item>User</item>
+    </array>
+</resources>

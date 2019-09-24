@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.imagurtask.ui.main.MainActivity">
+
+    <item
+        android:id="@+id/change_view_settings"
+        android:icon="@drawable/ic_grid"
+        android:orderInCategory="100"
+        android:title="@string/change_view"
+        app:showAsAction="always|ifRoom" />
+
+    <item
+        android:id="@+id/hot_section_settings"
+        android:orderInCategory="100"
+        android:title="@string/hot"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/top_section_settings"
+        android:orderInCategory="100"
+        android:title="@string/top"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/user_section_settings"
+        android:orderInCategory="100"
+        android:title="@string/user"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/show_viral_settings"
+        android:checkable="true"
+        android:checked="true"
+        android:orderInCategory="100"
+        android:title="@string/show_viral"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about_settings"
+        android:orderInCategory="100"
+        android:title="@string/about_settings"
+        app:showAsAction="never" />
+
+</menu>

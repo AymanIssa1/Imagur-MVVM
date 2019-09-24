@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/about_margin_dimen"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/about_margin_dimen"
+                android:layout_marginBottom="@dimen/about_margin_dimen"
+                android:text="Ayman Issa"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/about_text_size_dimen" />
+
+        </LinearLayout>
+
+        <include layout="@layout/divider_item" />
+
+        <LinearLayout
+            android:id="@+id/emailLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/about_margin_dimen"
+                android:src="@drawable/ic_email_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/about_margin_dimen"
+                android:layout_marginBottom="@dimen/about_margin_dimen"
+                android:text="AymanAdel003@gmail.com"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/about_text_size_dimen" />
+
+        </LinearLayout>
+
+        <include layout="@layout/divider_item" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/about_margin_dimen"
+                android:src="@drawable/ic_date_range_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/about_margin_dimen"
+                android:layout_marginBottom="@dimen/about_margin_dimen"
+                android:text="September 24, 2019"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/about_text_size_dimen" />
+
+        </LinearLayout>
+
+        <include layout="@layout/divider_item" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/about_margin_dimen"
+                android:src="@drawable/ic_update_black_24dp" />
+
+            <TextView
+                android:id="@+id/versionNumberTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/about_margin_dimen"
+                android:layout_marginBottom="@dimen/about_margin_dimen"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/about_text_size_dimen"
+                tools:text="Version: X.Y.Z" />
+
+        </LinearLayout>
+
+        <include layout="@layout/divider_item" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

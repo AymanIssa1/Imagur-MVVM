@@ -1,0 +1,43 @@
+package com.example.imagurtask.models
+
+import com.google.gson.annotations.SerializedName
+
+data class Image(
+    @SerializedName("id") val id: String,
+    @SerializedName("datetime") val datetime: Int,
+    @SerializedName("type") val type: String,
+    @SerializedName("animated") val animated: Boolean,
+    @SerializedName("width") val width: Int,
+    @SerializedName("height") val height: Int,
+    @SerializedName("size") val size: Int,
+    @SerializedName("views") val views: Int,
+    @SerializedName("bandwidth") val bandwidth: Long,
+    @SerializedName("favorite") val favorite: Boolean,
+    @SerializedName("is_ad") val isAd: Boolean,
+    @SerializedName("in_most_viral") val inMostViral: Boolean,
+    @SerializedName("has_sound") val hasSound: Boolean,
+    @SerializedName("tags") val tags: List<Any>,
+    @SerializedName("ad_type") val adType: Int,
+    @SerializedName("ad_url") val adUrl: String,
+    @SerializedName("edited") val edited: String,
+    @SerializedName("in_gallery") val inGallery: Boolean,
+    @SerializedName("link") val link: String,
+    @SerializedName("mp4_size") val mp4Size: Int,
+    @SerializedName("mp4") val mp4: String,
+    @SerializedName("gifv") val gifv: String,
+    @SerializedName("hls") val hls: String,
+    @SerializedName("processing") val processing: Processing,
+    @SerializedName("title") val title: Any?,
+    @SerializedName("description") val description: Any?,
+    @SerializedName("vote") val vote: Any?,
+    @SerializedName("nsfw") val nsfw: Any?,
+    @SerializedName("section") val section: Any?,
+    @SerializedName("account_url") val accountUrl: Any?,
+    @SerializedName("account_id") val accountId: Any?,
+    @SerializedName("comment_count") val commentCount: Any?,
+    @SerializedName("favorite_count") val favoriteCount: Any?,
+    @SerializedName("ups") val ups: Any?,
+    @SerializedName("downs") val downs: Any?,
+    @SerializedName("points") val points: Any?,
+    @SerializedName("score") val score: Any?
+)

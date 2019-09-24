@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="hit_card_view_margin_dimen">8dp</dimen>
+    <dimen name="hit_card_view_radius_dimen">2dp</dimen>
+    <dimen name="hit_card_view_elevation_dimen">4dp</dimen>
+    <dimen name="user_layout_horizontal_padding_dimen">8dp</dimen>
+    <dimen name="user_image_view_dimen">32dp</dimen>
+    <dimen name="hit_details_image_padding_dimen">4dp</dimen>
+    <dimen name="hit_details_text_size_dimen">16sp</dimen>
+    <dimen name="hit_details_icon_border_width_dimen">20dp</dimen>
+    <dimen name="about_margin_dimen">16dp</dimen>
+    <dimen name="about_text_size_dimen">18sp</dimen>
+</resources>
